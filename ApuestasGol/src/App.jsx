@@ -8,7 +8,8 @@ function App() {
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className="bg-red-500">
+      {/* <h1 className="bg-red-500 text-3xl font-bold underline">Hello world!</h1>
       <h2>Apuestas:</h2>
       <ul>
         {apuestas.map((apuesta, index) => (
@@ -16,7 +17,8 @@ function App() {
             Equipo 1: {apuesta.equipo1}, Equipo 2: {apuesta.equipo2}
           </li>
         ))}
-      </ul>
+      </ul> */}
+      awdhjwui
     </div>
   );
 }
