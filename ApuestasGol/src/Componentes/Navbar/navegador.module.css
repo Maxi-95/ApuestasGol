@@ -1,0 +1,41 @@
+/* styles.module.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+}
+
+nav img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 10px;
+}
