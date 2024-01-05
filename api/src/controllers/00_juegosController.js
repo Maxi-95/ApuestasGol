@@ -10,7 +10,7 @@ const ApiPartidos = async () => {
     };
 
     const infoApi = await axios.get(
-      `https://api.football-data.org/v4/matches`,
+      `https://api.football-data.org/v4/competitions/CL/matches`,
       { headers }
     );
     return infoApi.data;
