@@ -24,6 +24,7 @@ function BarraIzquierda() {
           name="seleccion"
         >
           <option value="opcion1">La liga de Italia</option>
+          <option value="opcion2">Opción 1</option>
           <option value="opcion2">Opción 2</option>
           <option value="opcion3">Opción 3</option>
           <option value="opcion3">Opción 4</option>
@@ -36,6 +37,7 @@ function BarraIzquierda() {
           name="seleccion"
         >
           <option value="opcion1">La liga de Alemania</option>
+          <option value="opcion2">Opción 1</option>
           <option value="opcion2">Opción 2</option>
           <option value="opcion3">Opción 3</option>
         </select>
@@ -47,6 +49,7 @@ function BarraIzquierda() {
           name="seleccion"
         >
           <option value="opcion1">La liga de Francesa</option>
+          <option value="opcion2">Opción 1</option>
           <option value="opcion2">Opción 2</option>
         </select>
       </div>
