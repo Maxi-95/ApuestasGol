@@ -170,7 +170,7 @@ function App() {
                   </th>
                 </tr>
               </thead>
-              <tbody>
+              {/* <tbody>
                 <tr class="border-b w-full">
                   <td class="px-4 py-2 text-left align-top w-1/2">
                     <div>
@@ -210,7 +210,7 @@ function App() {
                     </p>
                   </td>
                 </tr>
-              </tbody>
+              </tbody> */}
             </table>
           </div>
         </div>
