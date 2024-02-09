@@ -165,7 +165,7 @@ function App() {
                 <tr>
                   <th class="px-4 py-2 text-left border-b-2 w-full">
                     <h2 class="text-ml font-bold text-gray-600">
-                      Transacciones
+                      Transacciones x8 ****5847
                     </h2>
                   </th>
                 </tr>
