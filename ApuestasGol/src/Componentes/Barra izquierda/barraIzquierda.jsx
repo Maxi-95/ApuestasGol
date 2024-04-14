@@ -10,25 +10,25 @@ function BarraIzquierda() {
       {/* <BarraIzquierda></BarraIzquierda> */}
 
       <div class="bg-gray-900 h-full p-4 space-y-4">
-        <div className="bg-gray-500 h-250">
-          <p>Disponible</p>
-          <h1>$500.00</h1>
-          <p>En apuestas</p>
-          <h1>$1500.00</h1>
-          <div class="flex">
+        <div className="bg-cover bg-[url('https://static8.depositphotos.com/1339671/850/i/450/depositphotos_8503533-stock-photo-football-grass-field.jpg')] flex flex-col justify-around text-center h-250">
+          <strong class="text-green">Disponible</strong>
+          <h1 class="text-gray-100 text-3xl">$500.00</h1>
+          <strong class="text-green">En apuestas</strong>
+          <h1 class="text-gray-100 text-3xl">$1500.00</h1>
+          <div class="flex justify-around text-gray-100">
             <button>Depositar</button>
+            <p>|</p>
             <button>Retirar</button>
           </div>
         </div>
-        <a
-          href="#"
-          aria-label="dashboard"
-          class="relative px-4 py-3 flex items-center space-x-4 rounded-lg text-white bg-gradient-to-r from-sky-600 to-cyan-400"
-        >
-          <i class="fas fa-home text-white"></i>
-          <span class="-mr-1 font-medium">Inicio</span>
-        </a>
 
+        <button class="bg-transparent text-green hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-green hover:border-transparent rounded w-full">
+          Ver Apuestas
+        </button>
+        <div className="flex justify-between items-center mt-8">
+          <strong class="text-gray-400">Favorites Leagues</strong>
+          <strong class="text-gray-400">ADD</strong>
+        </div>
         <a
           href="#"
           class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group"
@@ -50,6 +50,10 @@ function BarraIzquierda() {
           <i class="fas fa-user"></i>
           <span>Mi cuenta</span>
         </a>
+        <div className="flex justify-between items-center mt-8">
+          <strong class="text-gray-400">Favorites Club</strong>
+          <strong class="text-gray-400">ADD</strong>
+        </div>
         <a
           href="#"
           class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group"
