@@ -36,31 +36,8 @@ function App() {
   return (
     <>
       <body class="bg-gray-200">
-        <nav class="bg-white border-b border-gray-300">
-          <div class="flex justify-between items-center px-9">
-            <button id="menuBtn">
-              <i class="fas fa-bars text-cyan-500 text-lg"></i>
-            </button>
+        <Navbar></Navbar>
 
-            <div class="ml-1">
-              <img
-                src="https://www.emprenderconactitud.com/img/POC%20WCS%20(1).png"
-                alt="logo"
-                class="h-20 w-28"
-              />
-            </div>
-
-            <div class="space-x-4">
-              <button>
-                <i class="fas fa-bell text-cyan-500 text-lg"></i>
-              </button>
-
-              <button>
-                <i class="fas fa-user text-cyan-500 text-lg"></i>
-              </button>
-            </div>
-          </div>
-        </nav>
         <BarraIzquierda></BarraIzquierda>
 
         <div class="lg:ml-64 lg:pl-4 lg:flex lg:flex-col lg:w-75% mt-5 mx-2">

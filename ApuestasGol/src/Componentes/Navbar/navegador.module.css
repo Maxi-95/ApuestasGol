@@ -1,17 +1,18 @@
 /* styles.module.css */
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Arial", sans-serif;
+.colorLogo {
+  color: #30ff94;
 }
-
+.logoButton {
+  display: flex;
+  justify-content: space-between;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  background-color: #333;
+  background-color: #2c3339;
   color: white;
 }
 
