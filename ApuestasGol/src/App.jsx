@@ -4,109 +4,41 @@ import Navbar from "./Componentes/Navbar/navegador";
 import BarraIzquierda from "./Componentes/Barra izquierda/barraIzquierda";
 import Eventos from "./Componentes/Eventos/eventos";
 
-// import "./App.css";
-// import { Fragment } from "react";
-// import { Disclosure, Menu, Transition } from "@headlessui/react";
-// import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import "./App.css";
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
-// const user = {
-//   name: "Tom Cook",
-//   email: "tom@example.com",
-//   imageUrl:
-//     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-// };
-// const navigation = [
-//   { name: "Dashboard", href: "#", current: true },
-//   { name: "Team", href: "#", current: false },
-//   { name: "Projects", href: "#", current: false },
-//   { name: "Calendar", href: "#", current: false },
-//   { name: "Reports", href: "#", current: false },
-// ];
-// const userNavigation = [
-//   { name: "Your Profile", href: "#" },
-//   { name: "Settings", href: "#" },
-//   { name: "Sign out", href: "#" },
-// ];
+const user = {
+  name: "Tom Cook",
+  email: "tom@example.com",
+  imageUrl:
+    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+};
+const navigation = [
+  { name: "Dashboard", href: "#", current: true },
+  { name: "Team", href: "#", current: false },
+  { name: "Projects", href: "#", current: false },
+  { name: "Calendar", href: "#", current: false },
+  { name: "Reports", href: "#", current: false },
+];
+const userNavigation = [
+  { name: "Your Profile", href: "#" },
+  { name: "Settings", href: "#" },
+  { name: "Sign out", href: "#" },
+];
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(" ");
-// }
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
 function App() {
   return (
     <>
-      Landing
-      {/* <body class="bg-gray-200">
-        <nav class="bg-white border-b border-gray-300">
-          <div class="flex justify-between items-center px-9">
-            <button id="menuBtn">
-              <i class="fas fa-bars text-cyan-500 text-lg"></i>
-            </button>
+      <body class="bg-gray-200">
+        <Navbar></Navbar>
 
-            <div class="ml-1">
-              <img
-                src="https://www.emprenderconactitud.com/img/POC%20WCS%20(1).png"
-                alt="logo"
-                class="h-20 w-28"
-              />
-            </div>
-
-            <div class="space-x-4">
-              <button>
-                <i class="fas fa-bell text-cyan-500 text-lg"></i>
-              </button>
-
-              <button>
-                <i class="fas fa-user text-cyan-500 text-lg"></i>
-              </button>
-            </div>
-          </div>
-        </nav>
-
-        <div
-          id="sideNav"
-          class="lg:block hidden bg-white w-64 h-screen fixed rounded-none border-none"
-        >
-          <div class="p-4 space-y-4">
-            <a
-              href="#"
-              aria-label="dashboard"
-              class="relative px-4 py-3 flex items-center space-x-4 rounded-lg text-white bg-gradient-to-r from-sky-600 to-cyan-400"
-            >
-              <i class="fas fa-home text-white"></i>
-              <span class="-mr-1 font-medium">Inicio</span>
-            </a>
-
-            <a
-              href="#"
-              class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group"
-            >
-              <i class="fas fa-wallet"></i>
-              <span>Billetera</span>
-            </a>
-            <a
-              href="#"
-              class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group"
-            >
-              <i class="fas fa-exchange-alt"></i>
-              <span>Transacciones</span>
-            </a>
-            <a
-              href="#"
-              class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group"
-            >
-              <i class="fas fa-user"></i>
-              <span>Mi cuenta</span>
-            </a>
-            <a
-              href="#"
-              class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group"
-            >
-              <i class="fas fa-sign-out-alt"></i>
-              <span>Cerrar sesión</span>
-            </a>
-          </div>
-        </div>
+        <BarraIzquierda></BarraIzquierda>
 
         <div class="lg:ml-64 lg:pl-4 lg:flex lg:flex-col lg:w-75% mt-5 mx-2">
           <div class="bg-white rounded-full border-none p-3 mb-4 shadow-md">
@@ -119,9 +51,6 @@ function App() {
               />
             </div>
           </div>
-
-          "cambio chico"
-
 
           <div class="lg:flex gap-4 items-stretch">
             <div class="bg-white md:p-2 p-6 rounded-lg border border-gray-200 mb-4 lg:mb-0 shadow-md lg:w-[35%]">
@@ -214,9 +143,10 @@ function App() {
             </table>
           </div>
         </div>
-      </body> */}
+      </body>
     </>
   );
 }
 
 export default App;
+

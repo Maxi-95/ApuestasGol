@@ -4,17 +4,23 @@ import s from "./navegador.module.css";
 
 function Navbar() {
   return (
-    <header class="text-gray-400 bg-gray-900 body-font">
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-          <img class="h-40" src={logo} alt="" />
-        </a>
-        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 hover:text-white">inicio secion</a>
-          <a class="mr-5 hover:text-white">Monto</a>
-        </nav>
+    <nav className={s.logoButton}>
+      <div class="ml-1 flex">
+        <strong className={s.colorLogo}>APUESTAS</strong>
+        <h1>Gol</h1>
+        {/* <img
+            src="https://www.emprenderconactitud.com/img/POC%20WCS%20(1).png"
+            alt="logo"
+            class="h-20 w-28"
+          /> */}
       </div>
-    </header>
+
+      <div class=" w-200 flex justify-between	">
+        <button>Perfil</button>
+
+        <button>Cerrar Sesion</button>
+      </div>
+    </nav>
   );
 }
 
